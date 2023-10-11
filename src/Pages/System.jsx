@@ -30,6 +30,7 @@ import solarGrad from "../images/wallpapers/solar-grad.webp";
 import diamond from "../images/wallpapers/blood-diamond.webp";
 import somberForest from "../images/wallpapers/somber-forest.webp";
 import loneDuneWolf from "../images/wallpapers/lone-dune-wolf.webp";
+import FolderIcon from "../images/folder.png";
 import "./System.css";
 
 export const System = () => {
@@ -47,6 +48,9 @@ export const System = () => {
   const [isImgsLoaded, setIsImgsLoaded] = useState(false);
 
   const IMAGES = [
+    {
+      url: FolderIcon,
+    },
     {
       url: diamond,
     },
