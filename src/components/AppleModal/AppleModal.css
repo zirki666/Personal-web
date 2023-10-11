@@ -1,0 +1,25 @@
+.apple-modal {
+  position: absolute;
+  top: 29px;
+  left: 2px;
+  background-color: var(--bottom-bar-bg);
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #464444cd;
+  width: 260px;
+}
+.apple-modal li {
+  list-style: none;
+  font-size: 14px;
+  padding: 4px;
+  border-radius: 4px;
+}
+.apple-modal li:hover {
+  background-color: blueviolet;
+}
+.devider {
+  width: 240px;
+  height: 0.2px;
+  margin: 2px;
+  background-color: #464444cd;
+}

@@ -1,0 +1,21 @@
+.dark-mode {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark-mode-bg);
+  border: 1px solid var(--dark-mode-border);
+  border-radius: 8px;
+}
+.dark-mode img {
+  width: 32px;
+  background-color: var(--dark-mode-img-bg);
+  padding: 8px;
+  margin: 0;
+}
+.dark-mode p {
+  font-size: 16px;
+  margin: 0;
+  margin-left: 6px;
+  color: var(--font-color);
+}

@@ -1,0 +1,12 @@
+.bottom-wrapper {
+    display: flex;
+    justify-content: center;
+}
+main {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 0.5s ease;
+}

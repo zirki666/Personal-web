@@ -1,0 +1,42 @@
+.icons {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.close {
+    background-color: #FF5B52;
+    margin-right: 7px;
+}
+.resize {
+    background-color: #E6C029;
+}
+.hide {
+    background-color: #53C22C;
+    margin-right: 7px;
+}
+.hide:hover,.resize:hover,.close:hover {
+    cursor: pointer;
+}
+.close,.hide,.resize {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 12.8px;
+    height: 12.8px;
+    border-radius: 100%;
+    transition: 0.1s ease-out;
+}
+.icons svg {
+    display: none;
+    transition: 0.1s ease-out;
+}
+.icons:hover svg {
+    display: block;
+    transition: 0.1s ease-in;
+}
+.icons:hover .close,.icons:hover .hide,.icons:hover .resize {
+transform: scale(1.1);
+    transition: 0.1s ease-in;
+}

@@ -1,0 +1,20 @@
+.folders {
+  color: var(--font-color);
+  width: 32.85%;
+  height: 100%;
+  background-color: var(--folders-bg);
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border: 1px solid var(--finder-border);
+  padding-top: 72px;
+  padding-left: 20px;
+}
+.folders h1 {
+  font-size: 12px;
+}
+@media (max-width: 500px) {
+  .folders {
+    padding-left: 10px;
+    padding-right: 20px;
+  }
+}

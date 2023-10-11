@@ -1,0 +1,24 @@
+.keyboard-brightness {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark-mode-bg);
+  border: 1px solid var(--dark-mode-border);
+  border-radius: 8px;
+  margin-right: 6px;
+  width: 80px;
+  height: 90px;
+}
+.keyboard-brightness img {
+  width: 36px;
+  margin: 0;
+}
+.keyboard-brightness p {
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0;
+  color: var(--font-color);
+}

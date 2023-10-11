@@ -1,0 +1,77 @@
+.wallpapers-container {
+  height: 500px;
+  width: 50%;
+  background-color: var(--finder-bg);
+  border-radius: 16px;
+  position: absolute;
+  left: 25%;
+}
+.wallpapers-header p {
+  font-size: 14px;
+  color: var(--wallpapers-color);
+  text-align: center;
+  font-weight: 400;
+  margin: 0;
+}
+.wallpapers-header {
+  border-bottom: 1px solid var(--wallpapers-border);
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.actual-wallpaper {
+  margin-top: 20px;
+  width: 100%;
+  border-bottom: 1px solid var(--wallpapers-border);
+  display: grid;
+  justify-content: center;
+}
+.actual-wallpaper-items-container {
+  width: fit-content;
+}
+.actual-img {
+  border-radius: 12px;
+  padding: 0;
+  margin: 0;
+  width: 25vw;
+  height: 25vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.actual-name p {
+  font-size: 21px;
+  color: var(--wallpapers-color);
+  margin: 20px 0;
+}
+
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+  background-color: var(--scroll);
+}
+
+@media (max-width: 1024px) {
+  .actual-wallpaper-items-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .wallpapers-container {
+    width: 70%;
+  }
+  .actual-img {
+    width: 50vw;
+  }
+}

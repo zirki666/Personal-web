@@ -1,0 +1,38 @@
+.finder-container {
+  display: flex;
+  height: 400px;
+  width: 36.45833333333333%;
+  position: absolute;
+  left: 25%;
+  top: 25%;
+  transition: scale 0.5s ease;
+}
+
+.folder-items {
+  width: 67.15%;
+  background-color: var(--finder-bg);
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border: 1px solid var(--finder-border);
+  border-left: 0;
+}
+@media (max-width: 1024px) {
+  .finder-container {
+    width: 70%;
+    height: 500px;
+    left: 20%;
+  }
+}
+@media (max-width: 500px) {
+  .finder-container {
+    width: 90%;
+    height: 500px;
+    left: 20%;
+  }
+  .folder-items {
+    width: 100%;
+  }
+  .folders {
+    padding-left: 10px;
+  }
+}

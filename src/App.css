@@ -1,0 +1,68 @@
+:root {
+  --font-color: #fff;
+  --bottom-bar-bg: rgba(27, 27, 29, 0.3);
+  --border: rgb(255, 255, 255, 0.3);
+  --file-bg: rgb(22, 29, 41);
+  --code-color: rgb(57, 72, 88);
+  --const-color: rgb(33, 228, 205);
+  --equal-color: rgb(232, 202, 95);
+  --name-color: rgb(255, 115, 138);
+  --const-item-color: rgb(58, 233, 132);
+  --semicolon-color: rgb(86, 90, 93);
+  --bracket-color: rgb(152, 138, 255);
+  --curly-braces-color: rgb(100, 173, 202);
+  --finder-bg: rgb(46, 46, 46);
+  --finder-border: rgba(253, 253, 253, 0.3);
+  --folder-bg: rgb(136, 136, 136, 0.3);
+  --folders-bg: rgb(46, 46, 46, 0.9);
+  --finder-format-bg: rgb(56, 56, 56);
+  --dark-mode-bg: rgba(0, 0, 0, 0.2);
+  --dark-mode-border: rgba(205, 205, 205, 0.3);
+  --dark-mode-img-bg: rgb(94, 92, 230);
+  --settings-item-color: rgb(255, 255, 255, 0.5);
+  --wallpapers-border: rgba(255, 255, 255, 0.247);
+  --scroll: rgb(255, 255, 255);
+  --wallpapers-color: #d9d9d9;
+}
+
+[data-theme='light'] {
+  --font-color: rgb(0, 0, 0, 0.5);
+  --bottom-bar-bg: rgb(255, 255, 255, 0.3);
+  --border: rgb(0, 0, 0, 0.5);
+  --file-bg: rgb(255, 255, 255);
+  --finder-bg: rgb(255, 255, 255);
+  --finder-border: rgb(46, 46, 46);
+  --folder-bg: rgb(255, 255, 255, 0.3);
+  --folders-bg: rgb(255, 255, 255, 0.9);
+  --finder-format-bg: rgb(241, 239, 245);
+  --dark-mode-bg: rgb(255, 255, 255, 0.3);
+  --dark-mode-border: rgba(205, 205, 205, 0.3);
+  --dark-mode-img-bg: rgb(77, 77, 77);
+  --settings-item-color: rgb(255, 255, 255, 0.5);
+  --wallpapers-border: rgba(0, 0, 0, 0.247);
+  --scroll: rgb(0, 0, 0);
+  --wallpapers-color: rgba(0, 0, 0);
+}
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./images/big-sur-graphic.jpg);
+  background-size: cover;
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}

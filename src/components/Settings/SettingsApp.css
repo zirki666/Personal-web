@@ -1,0 +1,10 @@
+.settings-apps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--dark-mode-bg);
+    border: 1px solid var(--dark-mode-border);
+    width: fit-content;
+    padding: 12px;
+    border-radius: 8px;
+}

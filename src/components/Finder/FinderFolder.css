@@ -1,0 +1,35 @@
+.folder {
+  display: flex;
+  padding: 2px 0;
+  background-color: var(--folder-bg);
+  width: fit-content;
+  border-radius: 3px;
+}
+.folder img {
+  border-radius: 0;
+  width: 25px;
+  margin: 0;
+  padding-left: 10px;
+}
+.folder h2 {
+  font-size: 12px;
+  margin-left: 5px;
+  padding-right: 30px;
+}
+.folder:nth-child(3) {
+  background-color: transparent;
+}
+@media (max-width: 1024px) {
+  .folder-items {
+    width: 80%;
+  }
+}
+@media (max-width: 500px) {
+  .folder-items {
+    width: 100%;
+  }
+  .folder h2 {
+    padding-right: 25px;
+    margin-right: 5px;
+  }
+}

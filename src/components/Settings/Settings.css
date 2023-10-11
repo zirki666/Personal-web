@@ -1,0 +1,25 @@
+.settings-modal {
+  border-radius: 16px;
+  padding: 8px;
+  border: 1px solid var(--dark-mode-border);
+  display: grid;
+  place-items: center;
+  backdrop-filter: blur(8px);
+  background-color: var(--bottom-bar-bg);
+  position: absolute;
+  right: 20px;
+  top: 28px;
+  transition: scale 0.1s;
+  z-index: 3;
+}
+.settings-modal-top-wrapper {
+  display: flex;
+}
+.settings-modal-bottom-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+}
+.right-bar-wrapper {
+  margin-left: 8px;
+}

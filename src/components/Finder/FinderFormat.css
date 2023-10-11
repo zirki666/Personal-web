@@ -1,0 +1,16 @@
+.folder-format {
+  background-color: var(--finder-format-bg);
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 10px;
+}
+.folder-format svg {
+  margin: 4px;
+  padding: 4px;
+}
+.folder-format svg:nth-child(1) {
+  background-color: var(--folder-bg);
+  border-radius: 3px;
+}
