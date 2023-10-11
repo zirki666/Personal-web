@@ -24,7 +24,7 @@ export const Login = () => {
   return (
     <div className='login'>
       <img src={avatar} alt='avatar' loading='lazy'></img>
-      <p>cocaine_death</p>
+      <p>Kacper Koczur</p>
       <div className='input-container'>
         <input
           placeholder='Enter password'

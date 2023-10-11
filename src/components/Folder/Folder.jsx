@@ -18,7 +18,6 @@ export const Folder = () => {
         ref={draggableRef}
         onClick={() => {
           closed.setIsClosed(false);
-          console.log(closed.isClosed);
         }}
       >
         <img src={FolderIcon} alt='icon'></img>

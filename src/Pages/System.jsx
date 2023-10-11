@@ -84,7 +84,6 @@ export const System = () => {
     {
       url: dome,
     },
-
     {
       url: childhoodInnocence,
     },
